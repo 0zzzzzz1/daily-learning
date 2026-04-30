@@ -221,5 +221,7 @@ daily-learning/
 | 2026-04-24 | 解構賦值、Spread 展開、Rest 其餘運算子                    | M1  | ⏳ 待提交 | —   |
 | 2026-04-27 | 箭頭函式（Arrow Function）× 模板字串（Template Literal） | M1  | ⏳ 待提交 | —   |
 | 2026-04-28 | Promise、async/await、ESM 模組系統                 | M1  | ⏳ 待提交 | —   |
+| 2026-04-29 | W2 實作工坊：非同步資料流封裝模組（async-utils）         | M1  | ⏳ 待提交 | —   |
+| 2026-04-30 | Vue 3 整合 async-utils × 房源列表頁面 × Skeleton UI  | M1  | ⏳ 待提交 | —   |
 
 
