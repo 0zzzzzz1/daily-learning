@@ -223,5 +223,9 @@ daily-learning/
 | 2026-04-28 | Promise、async/await、ESM 模組系統                 | M1  | ⏳ 待提交 | —   |
 | 2026-04-29 | W2 實作工坊：非同步資料流封裝模組（async-utils）         | M1  | ⏳ 待提交 | —   |
 | 2026-04-30 | Vue 3 整合 async-utils × 房源列表頁面 × Skeleton UI  | M1  | ⏳ 待提交 | —   |
+| 2026-05-01 | W1–W2 作業補交日：TaskList.vue × 工具函式庫 × 格式化工具庫實作 | M1 | 🔄 PR 準備中 | — |
+| 2026-05-02 | W2 PR 整理（async-utils）× W3 預習：ref/reactive/computed/watch 深入 | M1 | 🔄 W2 PR 今日發出 | — |
+| 2026-05-03 | W2 截止前確認 × W3 預習深化：Lifecycle Hooks 完整梳理 × watchEffect 整合模式 | M1 | ⏳ 確認 PR 狀態（截止明日 5/4）| — |
+| 2026-05-04 | W2 截止日確認 × W3 銜接準備：W2 知識總結 × 4 份 PR 狀態確認 | M1 | 🔲 請登入 GitHub 手動確認 PR | — |
 
 
