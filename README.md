@@ -227,5 +227,8 @@ daily-learning/
 | 2026-05-02 | W2 PR 整理（async-utils）× W3 預習：ref/reactive/computed/watch 深入 | M1 | 🔄 W2 PR 今日發出 | — |
 | 2026-05-03 | W2 截止前確認 × W3 預習深化：Lifecycle Hooks 完整梳理 × watchEffect 整合模式 | M1 | ⏳ 確認 PR 狀態（截止明日 5/4）| — |
 | 2026-05-04 | W2 截止日確認 × W3 銜接準備：W2 知識總結 × 4 份 PR 狀態確認 | M1 | 🔲 請登入 GitHub 手動確認 PR | — |
+| 2026-05-05 | W3 Day 1：ref / reactive / computed / watch 深入精進（底層原理、dirty flag、Effect Graph）| M1 | ⏳ 進行中 | — |
+| 2026-05-06 | W3 Day 2：ref auto-unwrap × toRef / toRefs × shallowRef / shallowReactive × markRaw（響應式參考的傳遞與保存）| M1 | ⏳ 進行中 | — |
+| 2026-05-07 | W3 Day 3：TaskList.v2.vue 需求拆解 × useTasks Composable 骨架設計（實作期啟動）| M1 | ⏳ 進行中（截止 5/11）| — |
 
 
