@@ -230,5 +230,34 @@ daily-learning/
 | 2026-05-05 | W3 Day 1：ref / reactive / computed / watch 深入精進（底層原理、dirty flag、Effect Graph）| M1 | ⏳ 進行中 | — |
 | 2026-05-06 | W3 Day 2：ref auto-unwrap × toRef / toRefs × shallowRef / shallowReactive × markRaw（響應式參考的傳遞與保存）| M1 | ⏳ 進行中 | — |
 | 2026-05-07 | W3 Day 3：TaskList.v2.vue 需求拆解 × useTasks Composable 骨架設計（實作期啟動）| M1 | ⏳ 進行中（截止 5/11）| — |
-
-
+| 2026-05-08 | W3 Day 4：useTasks 核心邏輯完整實作 × TaskList.v2.vue 接入 × 瀏覽器驗證（核心功能可運作）| M1 | ⏳ 進行中（截止 5/11）| — |
+| 2026-05-09 | W3 Day 5：LocalStorage 持久化回路（onMounted 讀取）× 字數限制 × W3 Self-review | M1 | ⏳ 進行中（截止 5/11，剩 2 天）| — |
+| 2026-05-10 | W3 Day 6：作業收尾整理 × TypeScript 型別審查 × Commit 整理 × PR 準備 × 最終驗收腳本 | M1 | ⏳ 收尾中（截止 明日 5/11）| — |
+| 2026-05-11 | W3 Day 7（截止日）：W3 完整知識總結 × PR 提交行動 × W4（Lifecycle Hooks / watchEffect / toRefs）銜接預習 | M1 | 🔴 截止已過，請確認 PR | — |
+| 2026-05-12 | W4 Day 1：Vue 3 Lifecycle Hooks 完整時間軸 × onMounted vs watch { immediate } 選用決策 × 父子掛載順序 × onUnmounted 清理模式 | M1 | ⏳ W4 進行中（截止 5/18）| — |
+| 2026-05-13 | W4 Day 2：watchEffect 深化 × onCleanup 完整時機（每次重跑前觸發）× AbortController Race Condition 防禦 × flush: post | M1 | ⏳ W4 進行中（截止 5/18，剩 5 天）| — |
+| 2026-05-14 | W4 Day 3：toRefs 深化 × Composable 回傳物件設計（個別 ref vs reactive + toRefs）× storeToRefs 概念 × LifecycleLogger.vue 骨架設計完成 | M1 | ⏳ W4 進行中（截止 5/18，剩 4 天）| — |
+| 2026-05-15 | W4 Day 4：useWatchEffectLogger.ts 完整實作 × flush 模式動態切換 × Active Instance 清理機制 × AbortController 非同步防禦 | M1 | ⏳ W4 進行中（截止 5/18，剩 3 天）| — |
+| 2026-05-16 | W4 Day 5：useLifecycleLogger.ts 完整實作 × LifecycleLogger.vue 模板整合 × 依賴追蹤因果鏈（讀取建立依賴 → re-render → onUpdated）× 雙 Composable 同一元件整合設計 | M1 | ⏳ W4 進行中（截止 5/18，剩 2 天）| — |
+| 2026-05-17 | W4 Day 6：TypeScript 型別審查（定義層 → 函式簽名 → 使用層）× 功能驗收腳本（8 步驟系統化）× Commit 整理 × PR 準備 × keyof T × Object.keys 型別限制 × Composable 回傳型別 API 契約 | M1 | ⏳ W4 收尾中（截止 明日 5/18）| — |
+| 2026-05-18 | W4 Day 7（截止日）：W4 整週知識總結（Lifecycle→watchEffect→toRefs→Composable實作→型別審查→PR）× onErrorCaptured 擴充性設計分析 × M2 銜接預習（defineProps/defineEmits/v-model 進階） | M1 | 🔴 截止已過，請確認 Push + PR | — |
+| 2026-05-19 | M2-W5 Day 1：defineProps（TS 型別宣告 × withDefaults）× defineEmits（payload 型別約束）× v-model 完整展開（基本 / 具名 / 多個）× defineModel（Vue 3.4）× Props Down / Events Up 原則 | M2 | ⏳ W5 進行中（截止 5/25）| — |
+| 2026-05-20 | M2-W5 Day 2：CustomInput.vue 完整實作（Props → Input → Emit 資料流閉環）× defineModel 對照版本（選用決策 trade-off）× 泛型 v-model 預備（generic="T"，面向 CustomSelect）× as HTMLInputElement type narrowing × v-if vs v-show 選用決策 | M2 | ⏳ W5 進行中（截止 5/25，剩 5 天）| — |
+| 2026-05-21 | M2-W5 Day 3：Event 型別鏈（InputEvent / FocusEvent / instanceof 守衛）× $attrs Fallthrough（inheritAttrs: false + v-bind="$attrs"）× 表單整合狀態設計（reactive 表單物件 × useLoginForm Composable）× CustomSelect 泛型骨架（generic="T extends string \| number"）| M2 | ⏳ W5 進行中（截止 5/25，剩 4 天）| — |
+| 2026-05-22 | M2-W5 Day 4：CustomSelect 完整實作（HTML .value 永遠是 string × options.find 還原 T 型別 × null 值 v-model 處理）× LoginForm.vue 三元件整合（CustomInput × 2 + CustomSelect × 1）× 即時驗證策略（@blur + 提交時二次驗證）× 泛型 T 型別推導機制（無需顯式指定）| M2 | ⏳ W5 進行中（截止 5/25，剩 3 天）| — |
+| 2026-05-23 | M2-W5 Day 5：功能驗收腳本系統化（12 步驟 × 操作+確認結構 × 人工版 Unit Test）× TypeScript 全審查流程（定義層→函式簽名→使用層→vue-tsc --noEmit）× 邊緣 case 補強清單 × Code Review 自審（Why 角度）× W5 PR 說明草稿結構建立 | M2 | ⏳ W5 進行中（截止 5/25，剩 2 天）| — |
+| 2026-05-24 | M2-W5 Day 6：Commit 整理（Conventional Commits 規範 × feat/fix/refactor 選用 × git rebase -i）× PR 說明定稿（交付清單 + Why 決策 × 3 + 未決問題 + 測試方式）× --force-with-lease 協作安全 push × W5 七天知識閉環總結 × W6 銜接預習（provide/inject × Slots × 動態元件） | M2 | ⏳ W5 截止明日（5/25），今日完成 Push + PR | — |
+| 2026-05-25 | M2-W5 Day 7（截止日）：W5 完整知識閉環確認 × PR 行動確認（今日截止）× W6 深化預習（provide/inject 機制 × InjectionKey<T> × Slots 三種形式 × 動態元件 × KeepAlive） | M2 | 🔴 截止已過，請確認 PR Open | — |
+| 2026-05-26 | M2-W6 Day 1：provide/inject 完整實作模式（InjectionKey<T> × inject fallback 三情境 × provide reactive 物件 × App-level provide）× Slots 三種形式（Default / Named / Scoped × $slots 條件渲染）× 動態元件與 KeepAlive（activated / deactivated × include / exclude / max × LRU 策略） | M2 | ⏳ W6 進行中（截止 6/1）| — |
+| 2026-05-27 | M2-W6 Day 2：`PanelCard.vue` 完整實作（三區域 Named Slot × `$slots.footer` 條件渲染 × fallback content）× `injectionKeys.ts` 架構設計（`PanelTheme` interface × `panelThemeKey` Symbol）× `DashboardLayout.vue` 骨架（`provide reactive(theme)` × `<component :is>` × `KeepAlive`）× `inject` 型別縮窄實戰（fallback vs null check vs `!` 斷言）× `as const` + `keyof typeof` 精確型別鏈 | M2 | ⏳ W6 進行中（截止 6/1，剩 5 天）| — |
+| 2026-05-28 | M2-W6 Day 3：`FormPanel.vue` 完整實作（inject theme → CSS class 查找表 × Named Slots × KeepAlive 狀態保留驗證）× `ListPanel.vue` 泛型 Scoped Slot（`generic="T"` × 型別推導鏈）× `ChartPanel.vue`（inject headerBg × style 綁定）× `DashboardLayout.vue` 整合（三面板切換 × 響應式 theme 切換按鈕）× KeepAlive 副作用管理（`onDeactivated` vs `onUnmounted`）| M2 | ⏳ W6 進行中（截止 6/1，剩 4 天）| — |
+| 2026-05-29 | M2-W6 Day 4：`usePanelTheme.ts` Composable 提取（inject+fallback+computed 封裝，消除三 Panel inject 重複）× TypeScript 精確索引型別（`Record<PanelTheme['borderRadius'], string>`）× W6 功能驗收腳本 12 步驟 × `vue-tsc --noEmit` 零錯誤 | M2 | ⏳ W6 進行中（截止 6/1，剩 3 天）| — |
+| 2026-05-30 | M2-W6 Day 5：W6 Commit 整理（`git add -p` × `git rebase -i` × Conventional Commits feat/refactor/chore 選用）× PR 說明定稿（三個 Why 設計決策：Symbol InjectionKey / 泛型 Scoped Slot / Composable 提取時機）× W6 七天知識閉環整理（核心主軸：跨層通訊 × 彈性插槽 × 可維護性）| M2 | ⏳ W6 截止 6/1（剩 2 天）| — |
+| 2026-05-29 | M2-W6 Day 4：`usePanelTheme.ts` Composable 提取（inject+fallback+computed 封裝，消除三 Panel inject 重複）× TypeScript 精確索引型別（`Record<PanelTheme['borderRadius'], string>`）× W6 功能驗收腳本 12 步驟 × `vue-tsc --noEmit` 零錯誤 | M2 | ⏳ W6 進行中（截止 6/1，剩 3 天）| — |
+| 2026-05-30 | M2-W6 Day 5：W6 Commit 整理（`git add -p` × `git rebase -i` × Conventional Commits feat/refactor/chore 選用）× PR 說明定稿（三個 Why 設計決策：Symbol InjectionKey / 泛型 Scoped Slot / Composable 提取時機）× W6 七天知識閉環整理（核心主軸：跨層通訊 × 彈性插槽 × 可維護性）× `--force-with-lease` 安全推送複習 | M2 | ⏳ W6 截止 6/1（剩 2 天）| — |
+| 2026-05-29 | M2-W6 Day 4：`usePanelTheme.ts` Composable 提取（inject+fallback+computed 查找表封裝，消除三個 Panel inject 重複）× TypeScript 精確索引型別（`Record<PanelTheme['borderRadius'], string>`）× inject 物件共享機制（三 Panel 共享同一 reactive Proxy）× W6 功能驗收腳本 12 步驟 × nested object 泛型推導深度確認 × `vue-tsc --noEmit` 零錯誤 | M2 | ⏳ W6 進行中（截止 6/1，剩 3 天）| — |
+| 2026-05-31 | M2-W6 Day 6：W6 Push + PR Open（行動確認：`git push --force-with-lease` × GitHub PR Open × CI 確認）× W7 Composable 設計深度預習（抽取時機三訊號系統化 × 四種設計模式：useAsyncData/useLocalStorage/usePagination/useEventListener × Composable vs Pinia 邊界 × 回傳介面設計原則） | M2 | 🔴 W6 截止明日（6/1），今日必須 Push + PR Open | — |
+| 2026-06-01 | M2-W6 Day 7（截止日）：W6 七天完整知識閉環（provide/inject × Slots × KeepAlive × usePanelTheme 三主軸整合）× PR 截止確認（今日截止，立即行動）× W7 正式準備（useAsyncData/useLocalStorage API 設計草稿 × 三態管理 × AbortController × JSON 安全讀寫） | M2 | 🔴 截止今日，請立即 Push + PR Open | — |
+| 2026-06-02 | M2-W7 Day 1：Composable 抽取時機三訊號系統化（被動識別→主動設計）× useAsyncData<T> 完整設計（三態管理 × AbortController 封裝 × readonly 邊界 × AbortError 過濾）× AsyncDataResult<T> 泛型介面 × Readonly<Ref<T\|null>> 型別組合 | M2 | ⏳ W7 進行中（截止 6/8）| — |
+| 2026-06-03 | M2-W7 Day 2：useLocalStorage<T> 完整設計（parseJSON<T> 型別守衛 × 初始化時機優化：ref() vs onMounted × SSR 安全 × watch deep 寫入回路）× Ref<T> vs Readonly<Ref<T>> API 邊界決策原則 × Composable 四層架構（持久化/非同步/UI邏輯/基礎設施）× useTasks.v3 重構對照 | M2 | ⏳ W7 進行中（截止 6/8，剩 5 天）| — |
+| 2026-06-04 | M2-W7 Day 3：usePagination 完整設計（純 computed 驅動 × 無副作用 × total: Ref<number> 響應式邊界 × pageRange 省略號邏輯 × goToPage 邊界保護 × totalPages watch 邊界修正）× 與 useAsyncData 整合兩種模式（模式 A：元件 watch / 模式 B：業務 Composable 封裝）× Composable 四層架構第三層補全 | M2 | ⏳ W7 進行中（截止 6/8，剩 4 天）| — |
